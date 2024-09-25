@@ -10,7 +10,7 @@ class BlocProv extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: BlocProvider(
-        create:(ctx)=> AuthCubit() ,
+        create:(_)=> AuthCubit() ,
         child: const AuthScreen(),
       ),
     );
