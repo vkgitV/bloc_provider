@@ -35,7 +35,6 @@ class BlocHomeScreen extends StatefulWidget {
 }
 
 class _BlocHomeScreenState extends State<BlocHomeScreen> {
-  bool increment=true;
 
   void _incrementCounter() {
   BlocProvider.of<CounterBloc>(context).add(AddEvent());
